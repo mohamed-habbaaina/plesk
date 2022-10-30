@@ -1,0 +1,53 @@
+/* La parti header*/
+  .photo-info{
+    height: 315px;
+    background-color: rgb(145, 49, 69);
+    color: white;
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  /* la photo de profil */
+  .photo{
+    height: 100%;
+    float: right;
+    margin-right: 50px;
+  }
+  /* Pour changer la couleur des liens*/
+a{
+    color: rgb(172, 177, 105);
+}
+.info{
+    float: left;
+    margin-left: 50px;
+}
+li{
+    font-weight: bold;
+}
+h2{
+    color: brown;
+    border-bottom:  3px solid brown;
+}
+/* La parti experiences coupée en deux*/
+.exp-left{
+    float: left;
+}
+.exp-left:hover{
+    color: rgb(72, 70, 201);
+}
+.exp-right{
+    margin-left: 50%;
+}
+.exp-right:hover{
+    color: rgb(72, 70, 201);
+}
+/* Pour changer la couleur de text (plus claire)*/
+.post{
+    color: rgb(155, 153, 153);
+}
+#image{
+    border-radius: 100%;
+    height: inherit;
+    display: block;
+    position: relative;
+}
